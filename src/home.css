@@ -5,13 +5,83 @@
 }
 
 body{
-    background-color: rgb(33, 33, 33);
-    color: #fff;
+    background-color: rgb(229, 228, 206);
+    color: #252525;
+    overflow-x: hidden;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff05;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    box-shadow: 0px 1px 12px #777777;
+}
+
+nav .link{
+    text-decoration: none;
+    color:#252525;
+    font-family: 'Pixelify Sans', sans-serif;
+    position: relative;
+    top: 10px;
+    margin-left: 50px;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+}
+
+nav .content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   position: static;
+   margin-right: 60px;
 }
 
 p{
     font-size: x-large;
     text-align: center;
-    margin-top: 200px;
     font-family: "Pixelify Sans", sans-serif;
+}
+
+section .profile{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 18px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 80px;
+    left: 37%;
+}
+
+.message{
+    position: relative;
+    right: 10px;
+}
+
+#text1{
+    margin-right: 50px;
+}
+
+#text3{
+    margin-right: 90px;
+}
+
+.decoration{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.decoration .plant{
+    height: 150px;
+    width: 150px;
+    background-image: url(../Plant.png);
+    background-position: center;
+    background-size: cover;
 }
