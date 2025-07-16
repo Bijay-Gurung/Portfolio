@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: rgb(229, 228, 206);
     color: #252525;
     overflow-x: hidden;
@@ -45,6 +52,10 @@ p{
     font-family: "Pixelify Sans", sans-serif;
 }
 
+section {
+    flex: 1;
+}
+
 section .profile{
     height: 80px;
     width: 80px;
@@ -68,6 +79,7 @@ section .profile{
 
 #text3{
     margin-right: 90px;
+    position: fixed;
 }
 
 .decoration{
@@ -84,4 +96,70 @@ section .profile{
     background-image: url(../Plant.png);
     background-position: center;
     background-size: cover;
+}
+
+.animation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#typewriter{
+    margin-left: 195px;
+    min-width: 200px;
+    min-height: 1.5em;
+    display: inline-block;
+}
+
+.footer{
+    width: 100%;
+}
+
+.footer .connect{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+#linkedin{
+    height: 30px;
+    width: 30px;
+    color: #252525;
+}
+
+#linkedin:hover{
+    color: #121f69;
+}
+
+#github{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    color: #252525;
+}
+
+#github:hover{
+    color: #000;
+}
+
+#instagram{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    color: #252525;
+}
+
+#instagram:hover{
+    color: #c41f02;
+}
+
+#mail{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    color: #252525;
+}
+
+#mail:hover{
+    color: #1177ad;
 }
