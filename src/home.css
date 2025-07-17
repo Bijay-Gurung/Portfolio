@@ -125,10 +125,13 @@ section .profile{
     height: 30px;
     width: 30px;
     color: #252525;
+    transition: width 0.3s, height 0.3s;
 }
 
 #linkedin:hover{
     color: #121f69;
+    width: 45px;
+    height: 45px;
 }
 
 #github{
@@ -136,10 +139,13 @@ section .profile{
     width: 30px;
     margin-left: 20px;
     color: #252525;
+    transition: width 0.3s, height 0.3s;
 }
 
 #github:hover{
     color: #000;
+    height: 45px;
+    width: 45px;
 }
 
 #instagram{
@@ -147,10 +153,13 @@ section .profile{
     width: 30px;
     margin-left: 20px;
     color: #252525;
+    transition: height 0.3s, width 0.3s;
 }
 
 #instagram:hover{
     color: #c41f02;
+    height: 45px;
+    width: 45px;
 }
 
 #mail{
@@ -158,8 +167,11 @@ section .profile{
     width: 30px;
     margin-left: 20px;
     color: #252525;
+    transition: height 0.3s, width 0.3s;
 }
 
 #mail:hover{
     color: #1177ad;
+    height: 45px;
+    width: 45px;
 }
