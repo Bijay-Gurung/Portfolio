@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#section{
+    display: flex;
+}
+
 .underDevelopment{
     height: 400px;
     width: 400px;
@@ -12,5 +16,41 @@
     background-size: cover;
     position: relative;
     top: 100px;
-    left: 37%;
+    left: 20%;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    background-color: #ffffff05;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 15px;
+    position: relative;
+    top: 90px;
+    left: 6%;
+    box-shadow: 8px 6px 10px #306797;
+}
+
+.image{
+    height: 300px;
+    width: 400px;
+    background-image: url("/Karma.jpg");
+    background-position: center;
+    background-size: cover;
+    --mask:
+     radial-gradient(169.94px at 50% calc(100% - 228px),#000 99%,#0000 101%) calc(50% - 152px) 0/304px 100%,
+     radial-gradient(169.94px at 50% calc(100% + 152px),#0000 99%,#000 101%) 50% calc(100% - 76px)/304px 100% repeat-x;
+     -webkit-mask: var(--mask);
+     mask: var(--mask);
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+}
+
+
+#aboutme{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+    position: relative;
+    bottom: 30px;
 }
