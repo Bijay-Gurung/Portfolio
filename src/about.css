@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.underDevelopment{
+    height: 400px;
+    width: 400px;
+    background-image: url("/UnderConstruction.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 100px;
+    left: 37%;
+}

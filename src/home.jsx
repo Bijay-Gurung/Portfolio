@@ -35,16 +35,16 @@ export default function Home() {
     <>
       <nav className="nav">
         <div className="content">
-          <Link to="" id="home" className="link">
+          <Link to="/" id="home" className="link">
             Home
           </Link>
-          <Link to="" id="about" className="link">
+          <Link to="/about" id="about" className="link">
             About
           </Link>
           <Link to="" id="projects" className="link">
             Projects
           </Link>
-          <Link to="" id="blog" className="link">
+          <Link to="" id="blog" className="link" style={{display: 'none'}}>
             Blogs
           </Link>
         </div>
