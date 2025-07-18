@@ -54,3 +54,50 @@
     position: relative;
     bottom: 30px;
 }
+
+.skills{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 20%;
+    background-color: #ffffff05;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(45px);
+    /* overflow: hidden;
+    overflow-y: scroll; */
+    border-radius: 19px;
+    box-shadow: 2px 4px 10px #2a2a2a;
+}
+
+.skills ul li{
+    font-family: 'Pixelify Sans', sans-serif;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.skills h3{
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.skills .box{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(98, 72, 54);
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    color: #e5e4ce;
+}
+
+.skills ul li:hover{
+    cursor: pointer;
+}
+
+.skills ul li #gcap{
+    padding-right: 10px;
+}

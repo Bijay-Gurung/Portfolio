@@ -1,6 +1,8 @@
 import "./about.css";
 import { Link } from "react-router-dom";
 import Typewriter from "./Typewriter";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faGraduationCap} from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
   return (
@@ -27,12 +29,30 @@ export default function About() {
           <div className="image"></div>
           <div className="content">
             <p id="aboutme">
-              <Typewriter text={`Hi, I'm Bijay Gurung. I'm a Software Engineer.\nI have a passion for developing\nSoftware and Games.In my free time,\nI enjoy learning new thing and spending time with my family and friends.`} delay={50} />
+              <Typewriter text={`Hi, I'm Bijay Gurung. I'm a Software Engineer.\nI have a passion for developing\nSoftware and Games. In my free time,\nI enjoy learning new thing and spending time with my family and friends.`} delay={50} />
             </p>
           </div>
         </div>
 
-        <div className="underDevelopment"></div>
+        <div className="skills">
+          <div className="box"><h3>Skills</h3></div>
+          <ul>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Mobile Application Development</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />WEb Application Development</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Desktop Application Development</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Machine Learning</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Natural Language Processing</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Exploratory Data Analysis</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Statical Data Analysis</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Presentation</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Strategic Planning</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Cinematography</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />Research</li>
+            <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />UI/Ux Designing</li>
+          </ul>
+        </div>
+        
+        {/* <div className="underDevelopment"></div> */}
       </section>
 
       
