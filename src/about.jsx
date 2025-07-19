@@ -3,6 +3,24 @@ import { Link } from "react-router-dom";
 import Typewriter from "./Typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGraduationCap} from '@fortawesome/free-solid-svg-icons';
+import { faPython } from "@fortawesome/free-brands-svg-icons";
+import { faJs } from "@fortawesome/free-brands-svg-icons";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
+import { faNode } from "@fortawesome/free-brands-svg-icons";
+import { faFlutter } from "@fortawesome/free-brands-svg-icons";
+import { faJava } from "@fortawesome/free-brands-svg-icons";
+import { faC } from "@fortawesome/free-solid-svg-icons";
+import { faDartLang } from "@fortawesome/free-brands-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faFigma } from "@fortawesome/free-brands-svg-icons";
+import { faAws } from "@fortawesome/free-brands-svg-icons";
+import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
+import { faFilePowerpoint } from "@fortawesome/free-solid-svg-icons";
+import { faFileWord } from "@fortawesome/free-solid-svg-icons";
+import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
+import { faCss } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faUnity } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
@@ -51,6 +69,31 @@ export default function About() {
             <li><FontAwesomeIcon icon={faGraduationCap} id="gcap" />UI/Ux Designing</li>
           </ul>
         </div>
+
+        <div className="tools">
+          <div className="tbox"><h3>Software & Tools</h3></div>
+
+          <div className="st">
+            <FontAwesomeIcon icon={faPython} id="python"/>
+            <FontAwesomeIcon icon={faJs} id="javascript"/>
+            <FontAwesomeIcon icon={faReact} id="react"/>
+            <FontAwesomeIcon icon={faNode} id="node"/>
+            <FontAwesomeIcon icon={faFlutter} id="flutter"/>
+            <FontAwesomeIcon icon={faJava} id="java"/>
+            <FontAwesomeIcon icon={faC} id="clan"/>
+            <FontAwesomeIcon icon={faDartLang} id="dart"/>
+            <FontAwesomeIcon icon={faDatabase} id="db"/>
+            <FontAwesomeIcon icon={faFigma} id="figma"/>
+            <FontAwesomeIcon icon={faAws} id="aws"/>
+            <FontAwesomeIcon icon={faGithub} id="github"/>
+            <FontAwesomeIcon icon={faFileExcel} id="excel"/>
+            <FontAwesomeIcon icon={faFilePowerpoint} id="powerpoint"/>
+            <FontAwesomeIcon icon={faFileWord} id="word"/>
+            <FontAwesomeIcon icon={faHtml5} id="html"/>
+            <FontAwesomeIcon icon={faCss} id="css"/>
+            <FontAwesomeIcon icon={faUnity} id="unity"/>
+          </div>
+        </div>       
         
         {/* <div className="underDevelopment"></div> */}
       </section>

@@ -29,13 +29,14 @@
     position: relative;
     top: 90px;
     left: 6%;
-    box-shadow: 8px 6px 10px #306797;
+    box-shadow: 8px 6px 10px rgb(98, 72, 54);
 }
 
 .image{
     height: 300px;
     width: 400px;
-    background-image: url("/Karma.jpg");
+    background-image: url("/Karmaremovedbg.png");
+    background-color: rgb(98, 72, 54);
     background-position: center;
     background-size: cover;
     --mask:
@@ -59,15 +60,15 @@
     height: 400px;
     width: 400px;
     position: relative;
-    top: 100px;
-    left: 20%;
+    top: 90px;
+    left: 10%;
     background-color: #ffffff05;
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(45px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
     /* overflow: hidden;
     overflow-y: scroll; */
     border-radius: 19px;
-    box-shadow: 2px 4px 10px #2a2a2a;
+    box-shadow: 8px 6px 10px rgb(98, 72, 54);
 }
 
 .skills ul li{
@@ -100,4 +101,60 @@
 
 .skills ul li #gcap{
     padding-right: 10px;
+}
+
+.tools{
+    height: 400px;
+    width: 400px;
+    background-color: #ffffff05;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 19px;
+    position: relative;
+    top: 90px;
+    left: 14%;
+    box-shadow: 8px 6px 10px rgb(98, 72, 54);
+    display: grid;
+    grid-template-columns: repeat(12, 40px);
+    grid-template-rows: repeat(10, 40px);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+    
+}
+::-webkit-scrollbar-track{
+    background-color: #4f3737;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #402d00;
+    width: 20px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+.tools .tbox{
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    background-color: rgb(98, 72, 54);
+    color: #e5e4ce;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.tools .st{
+    grid-row-start: 2;
+    grid-row-end: 10;
 }
