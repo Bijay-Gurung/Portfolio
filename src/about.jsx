@@ -74,24 +74,24 @@ export default function About() {
           <div className="tbox"><h3>Software & Tools</h3></div>
 
           <div className="st">
-            <FontAwesomeIcon icon={faPython} id="python"/>
-            <FontAwesomeIcon icon={faJs} id="javascript"/>
-            <FontAwesomeIcon icon={faReact} id="react"/>
-            <FontAwesomeIcon icon={faNode} id="node"/>
-            <FontAwesomeIcon icon={faFlutter} id="flutter"/>
-            <FontAwesomeIcon icon={faJava} id="java"/>
-            <FontAwesomeIcon icon={faC} id="clan"/>
-            <FontAwesomeIcon icon={faDartLang} id="dart"/>
-            <FontAwesomeIcon icon={faDatabase} id="db"/>
-            <FontAwesomeIcon icon={faFigma} id="figma"/>
-            <FontAwesomeIcon icon={faAws} id="aws"/>
-            <FontAwesomeIcon icon={faGithub} id="github"/>
-            <FontAwesomeIcon icon={faFileExcel} id="excel"/>
-            <FontAwesomeIcon icon={faFilePowerpoint} id="powerpoint"/>
-            <FontAwesomeIcon icon={faFileWord} id="word"/>
-            <FontAwesomeIcon icon={faHtml5} id="html"/>
-            <FontAwesomeIcon icon={faCss} id="css"/>
-            <FontAwesomeIcon icon={faUnity} id="unity"/>
+            <FontAwesomeIcon icon={faPython} id="python" className="i"/>
+            <FontAwesomeIcon icon={faJs} id="javascript" className="i"/>
+            <FontAwesomeIcon icon={faReact} id="react" className="i"/>
+            <FontAwesomeIcon icon={faNode} id="node" className="i"/>
+            <FontAwesomeIcon icon={faFlutter} id="flutter" className="i"/>
+            <FontAwesomeIcon icon={faJava} id="java" className="i"/>
+            <FontAwesomeIcon icon={faC} id="clan" className="i"/>
+            <FontAwesomeIcon icon={faDartLang} id="dart" className="i"/>
+            <FontAwesomeIcon icon={faDatabase} id="db" className="i"/>
+            <FontAwesomeIcon icon={faFigma} id="figma" className="i"/>
+            <FontAwesomeIcon icon={faAws} id="aws" className="i"/>
+            <FontAwesomeIcon icon={faGithub} id="github" className="i"/>
+            <FontAwesomeIcon icon={faFileExcel} id="excel" className="i"/>
+            <FontAwesomeIcon icon={faFilePowerpoint} id="powerpoint" className="i"/>
+            <FontAwesomeIcon icon={faFileWord} id="word" className="i"/>
+            <FontAwesomeIcon icon={faHtml5} id="html" className="i"/>
+            <FontAwesomeIcon icon={faCss} id="css" className="i"/>
+            <FontAwesomeIcon icon={faUnity} id="unity" className="i"/>
           </div>
         </div>       
         
