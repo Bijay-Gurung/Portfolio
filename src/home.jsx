@@ -9,7 +9,7 @@ import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
-  let faces = ["/Player.png", "/PlayerFace2.png"];
+  let faces = ["/PlayerFace1.png", "/PlayerFace2.png"];
   const [faceIndex, setFaceIndex] = useState(0);
 
   let texts = ["SoftwareEngineer", "Game Developer", "Data Analyst", "Pixel Art Designer", "UI/Ux Designer"];
@@ -41,7 +41,7 @@ export default function Home() {
           <Link to="/about" id="about" className="link">
             About
           </Link>
-          <Link to="" id="projects" className="link">
+          <Link to="/project" id="projects" className="link">
             Projects
           </Link>
           <Link to="" id="blog" className="link" style={{display: 'none'}}>

@@ -33,7 +33,7 @@ export default function About() {
           <Link to="/about" id="about" className="link">
             About
           </Link>
-          <Link to="" id="projects" className="link">
+          <Link to="/project" id="projects" className="link">
             Projects
           </Link>
           <Link to="" id="blog" className="link" style={{ display: "none" }}>
@@ -74,7 +74,7 @@ export default function About() {
           <div className="tbox"><h3>Software & Tools</h3></div>
 
           <div className="st">
-            <FontAwesomeIcon icon={faPython} id="python" className="i"/>
+            <FontAwesomeIcon icon={faPython} id="python" className="i"></FontAwesomeIcon>
             <FontAwesomeIcon icon={faJs} id="javascript" className="i"/>
             <FontAwesomeIcon icon={faReact} id="react" className="i"/>
             <FontAwesomeIcon icon={faNode} id="node" className="i"/>
