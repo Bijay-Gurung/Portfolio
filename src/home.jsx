@@ -9,7 +9,7 @@ import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
-  let faces = ["/PlayerFace1.png", "/PlayerFace2.png"];
+  let faces = ["/Portfolio/PlayerFace1.png", "/Portfolio/PlayerFace2.png"];
   const [faceIndex, setFaceIndex] = useState(0);
 
   let texts = ["SoftwareEngineer", "Game Developer", "Data Analyst", "Pixel Art Designer", "UI/Ux Designer"];
