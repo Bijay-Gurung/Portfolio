@@ -17,7 +17,9 @@ export default function App(){
       path: '/project',
       element: <Project/>
     }
-  ])
+  ], {
+    basename: '/Portfolio'
+  })
   
   return(
     <>
