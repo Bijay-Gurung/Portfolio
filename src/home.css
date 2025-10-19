@@ -175,3 +175,105 @@ section .profile{
     height: 45px;
     width: 45px;
 }
+
+/*mobile*/
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+nav .link{
+    margin-left: 40px;
+}
+
+nav .content{
+   gap: 2px;
+   margin-right: 80px;
+}
+
+p{
+    font-size: large;
+}
+
+.decoration{
+    max-width: 300px;
+    position: relative;
+    right: 5px;
+}
+
+.decoration .plant{
+    height: 100px;
+    width: 100px;
+}
+
+section .profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 14px;
+    position: relative;
+    top: 56px;
+    left: 20%;
+}
+
+.message{
+    position: relative;
+    left: 18px;
+}
+
+#text1{
+    margin-right: 30px;
+}
+
+#text3{
+    margin-top: 10px;
+    margin-right: 180px;
+    position: fixed;
+}
+
+#typewriter{
+    position: relative;
+    top: 10px;
+    margin-left: 60px;
+}
+
+.footer .connect{
+    margin-top: 120px;
+    margin-right: 20px;
+}
+
+#linkedin{
+    height: 25px;
+    width: 25px;
+}
+
+#linkedin:hover{
+    width: 35px;
+    height: 35px;
+}
+
+#github{
+    height: 25px;
+    width: 25px;
+}
+
+#github:hover{
+    height: 35px;
+    width: 35px;
+}
+
+#instagram{
+    height: 25px;
+    width: 25px;
+}
+
+#instagram:hover{
+    height: 35px;
+    width: 35px;
+}
+
+#mail{
+    height: 25px;
+    width: 25px;
+}
+
+#mail:hover{
+    height: 35px;
+    width: 35px;
+}
+}

@@ -396,3 +396,86 @@
 .st .i{
     cursor: pointer;
 }
+
+
+@media only screen and (min-width: 360px) and (max-width: 800px){
+    #section{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+    height: 250px;
+    width: 300px;
+    position: relative;
+    top: 50px;
+    left: 8%;
+    box-shadow: 8px 6px 10px rgb(98, 72, 54);
+}
+
+.image{
+    height: 150px;
+    width: 300px;
+    background-image: url("/Karmaremovedbg.png");
+    background-color: rgb(98, 72, 54);
+    background-position: center;
+    background-size: cover;
+    --mask: radial-gradient(243.94px at 50% calc(100% - 222px),
+    #000 99%, #0000 101%) calc(50% - 149px) 0 / 304px 100%,
+    radial-gradient(169.94px at 50% calc(100% + 145px), #0000 99%, #000 101%) 50% calc(100% - -11px) / 304px 100% repeat-x;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+}
+
+#aboutme{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+}
+
+.skills{
+    height: 250px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left:30px;;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.skills ul li{
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.skills .box{
+    height: 30px;
+    width: 100%;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 0px;
+}
+
+.skills ul li:hover{
+    font-size: 14px;
+}
+
+.tools{
+    height:250px;
+    width: 300px;
+    position: relative;
+    top: 140px;
+    left: 9%;
+}
+
+.tools .tbox{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+
+.tools .tbox h3{
+    padding-right: 30px;
+}
+}
