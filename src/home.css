@@ -277,3 +277,23 @@ section .profile{
     width: 35px;
 }
 }
+
+@media only screen and (min-width: 390px) and (max-width: 844px){
+nav .content{
+   gap: 2px;
+   margin-right: 60px;
+}
+
+p{
+    font-size: large;
+}
+
+.decoration{
+    max-width: 330px;
+}
+
+.decoration .plant{
+    height: 100px;
+    width: 100px;
+}
+}

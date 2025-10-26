@@ -421,3 +421,21 @@
   right: 30px;
 }
 }
+
+@media only screen and (min-width: 390px) and (max-width: 844px){
+  .projcard{
+    right: 10px;
+  }
+  .projcard1{
+    right: 10px;
+  }
+  .projcard2{
+    right: 10px;
+  }
+  .projcard3{
+    right: 10px;
+  }
+  .projcard4{
+    right: 10px;
+  }
+}

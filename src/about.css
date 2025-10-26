@@ -438,7 +438,7 @@
     width: 300px;
     position: relative;
     top: 100px;
-    left:30px;;
+    left:30px;
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -478,4 +478,18 @@
 .tools .tbox h3{
     padding-right: 30px;
 }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 844px){
+    .card{
+        left: 10%;
+    }
+
+    .skills{
+        left:40px;
+    }
+
+    .tools{
+        left:11%;
+    }
 }
